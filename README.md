@@ -26,7 +26,7 @@ Projeto estático, sem build: crie o repositório `agenciaadsbr/lp-hcb-trabalhis
 ## Antes de veicular
 - [ ] **OAB (Provimento 205/2021)**: preencher `oabSociedade` e `advogados[].oab` em `config.js`.
 - [ ] Fotos reais dos sócios → `assets/socio-ygor.webp` e `assets/socio-abelardo.webp` (4:5) e `advogados[].foto`.
-- [ ] `endereco`, `email` e `instagram` (opcionais; cada um só aparece quando preenchido).
+- [x] Endereço, e-mail e Instagram preenchidos a partir do papel timbrado oficial (ID visual nova HCB).
 - [ ] `metaPixelId` e/ou `gtmId`.
 - [ ] Com o domínio definido: trocar `og:image` para URL absoluta (`https://dominio/assets/og.jpg`).
 - [x] Acesso ao `/dashboard` criado: usuário **Admin** / senha **12345** (e-mail interno `admin@hcb-trabalhista.adsbr.internal`, liberado para `site = 'hcb-trabalhista'` em `lp_acessos`).

@@ -21,7 +21,7 @@ window.LP_CONFIG = {
     { nome: 'Dr. Ygor', oab: '', foto: '' },      // foto: 'assets/socio-ygor.webp'
     { nome: 'Dr. Abelardo', oab: '', foto: '' }   // foto: 'assets/socio-abelardo.webp'
   ],
-  endereco: '',                // ex.: 'Rua X, 123 — Aldeota, Fortaleza/CE'
-  email: '',
-  instagram: ''
+  endereco: 'R. Francisco Segundo da Costa, 77, Sala 14 – Edson Queiroz, Fortaleza/CE',
+  email: 'hcbadvocacia@gmail.com',
+  instagram: 'hcb_adv'
 };

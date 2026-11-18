@@ -120,7 +120,7 @@ td.num,th.num{text-align:right}
   var C = window.LP_CONFIG;
   var SITES = C.sites || [C.site];
   var USERS = { admin: 'admin@' + C.site + '.adsbr.internal' };
-  var CLIENTE = C.cliente || 'Herculano e Castelo Branco Advocacia';
+  var CLIENTE = C.cliente || 'Herculano & Castelo Branco Advocacia';
   var sb = window.supabase.createClient(C.supabaseUrl, C.supabaseAnonKey, { auth: { persistSession: true, storageKey: 'lp-dash-' + C.site } });
   var chart = null;
   var $ = function (id) { return document.getElementById(id); };

@@ -1,6 +1,6 @@
 # LP HCB — Direito Trabalhista (trabalhador reclamante)
 
-Herculano e Castelo Branco Advocacia e Assessoria Jurídica — landing page estática (HTML/CSS/JS, sem build) no padrão ADS BR.
+Herculano & Castelo Branco Advocacia e Assessoria Jurídica — landing page estática (HTML/CSS/JS, sem build) no padrão ADS BR.
 
 | Arquivo | Função |
 |---|---|

@@ -4,7 +4,7 @@
 window.LP_CONFIG = {
   site: 'hcb-trabalhista',
   sites: ['hcb-trabalhista'],
-  cliente: 'Herculano e Castelo Branco Advocacia e Assessoria Jurídica',
+  cliente: 'Herculano & Castelo Branco Advocacia e Assessoria Jurídica',
   whatsapp: '5585991020899',
   mensagem: 'Olá! Acessei a página da HCB e gostaria de conversar sobre uma questão trabalhista.',
   supabaseUrl: 'https://qxhnjzyhtllmtdrcyygi.supabase.co',

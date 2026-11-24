@@ -12,7 +12,7 @@ window.LP_CONFIG = {
 
   // Rastreamento: preencha os IDs e os scripts carregam sozinhos (vazio = não carrega nada).
   metaPixelId: '',
-  gtmId: '',
+  gtmId: '',  // GTM-NP44JL9C já está fixo no <head> de index.html e redirect.html — deixar vazio para não carregar duas vezes
 
   // Dados institucionais: cada item só aparece na página quando preenchido.
   // Provimento 205/2021 (OAB): informe o registro da sociedade e/ou dos advogados antes de veicular.

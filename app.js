@@ -106,7 +106,11 @@
     var cta = e.target.closest('[data-cta]');
     if (!cta) return;
     var area = cta.getAttribute('data-area');
-    if (area) sset(AREA_KEY, area);
+    if (area) {
+      sset(AREA_KEY, area);
+      // site institucional: pré-seleciona a área no formulário
+      document.querySelectorAll('input[name="area"]').forEach(function (r) { r.checked = r.value === area; });
+    }
     track('cta_click', { local: cta.getAttribute('data-cta'), area: area || '' });
     var href = cta.getAttribute('href') || '';
     if (href.charAt(0) === '#' && href.length > 1) {
@@ -219,7 +223,9 @@
       btn.setAttribute('aria-busy', 'true');
       label.textContent = 'Enviando…';
 
-      var area = sget(AREA_KEY) || '';
+      var picked = form.querySelector('input[name="area"]:checked');
+      var area = picked ? picked.value : (sget(AREA_KEY) || '');
+      if (picked) sset(AREA_KEY, area);
       var row = { site: SITE, nome: n.slice(0, 120), whatsapp: digits, origem: origem().slice(0, 240) };
       if (area) row.servico = area;
 

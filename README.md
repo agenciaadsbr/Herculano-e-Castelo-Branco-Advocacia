@@ -33,3 +33,8 @@ Projeto estático, sem build: crie o repositório `agenciaadsbr/lp-hcb-trabalhis
 
 ## Imagens
 Fotografias licenciadas do Freepik (licença do plano ADS BR, sem IA): 26265759 (hero), 22117940 (gestante), 13450080 (logística), 10608095 (fundo do contato). Pessoas recortadas com rembg. As 3 pessoas dos cards de situação (`assets/card-*.webp`) são fictícias, geradas por IA no Freepik/Magnific. Logo extraída da arte oficial do escritório. Mapa: `@svg-maps/brazil` (CC BY 4.0).
+
+## Site institucional (/escritorio)
+- `escritorio.html` → `/escritorio`: áreas Trabalhista, Cível e Criminal; leads gravados com `site='hcb-site'` e a área em `servico`.
+- `redirect-escritorio.html` → `/redirect-escritorio`: contagem de 3 s e WhatsApp com mensagem do site; tem GTM e a conversão Google Ads LEAD ADSBR.
+- O /dashboard mostra os dois (`sites` no config.js); o acesso do admin a `hcb-site` está em `lp_acessos`.

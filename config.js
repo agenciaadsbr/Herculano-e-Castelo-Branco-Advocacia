@@ -3,7 +3,7 @@
 // em lp_leads/lp_visits; a leitura dos leads exige login no /dashboard.
 window.LP_CONFIG = {
   site: 'hcb-trabalhista',
-  sites: ['hcb-trabalhista'],
+  sites: ['hcb-trabalhista', 'hcb-site'],   // hcb-site = site institucional (/escritorio)
   cliente: 'Herculano & Castelo Branco Advocacia e Assessoria Jurídica',
   whatsapp: '5585991020899',
   mensagem: 'Olá! Acessei a página da HCB e gostaria de conversar sobre uma questão trabalhista.',
@@ -12,7 +12,7 @@ window.LP_CONFIG = {
 
   // Rastreamento: preencha os IDs e os scripts carregam sozinhos (vazio = não carrega nada).
   metaPixelId: '',
-  gtmId: '',  // GTM-NP44JL9C já está fixo no <head> de index.html e redirect.html — deixar vazio para não carregar duas vezes
+  gtmId: '',  // GTM-NP44JL9C já está fixo no <head> de index.html, escritorio.html e nos redirects — deixar vazio para não carregar duas vezes
 
   // Dados institucionais: cada item só aparece na página quando preenchido.
   // Provimento 205/2021 (OAB): informe o registro da sociedade e/ou dos advogados antes de veicular.
